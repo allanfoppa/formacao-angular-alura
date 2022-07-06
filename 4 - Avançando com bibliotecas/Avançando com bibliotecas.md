@@ -57,3 +57,13 @@ Faz o merge de um ou mais observables (utilizado para o carregamento inicial + f
 ```typescript
 const params = value ? new HttpParams().append('param', value) : undefined
 ```
+
+## DEBOUNCE TIME
+
+Como mostrado no exemplo do curso, ele serve para aguardar um tempo pré definido em uma constante, que, após esse tempo continua o fluxo.
+
+Ex: um input de busca sendo disparado a após o tempo estabelecido.
+
+## DISTINCT UNTIL CHANGED
+
+serve como um comparador de dados, sendo o valor do input igual ao anterior ele não requisita novamente o serviço.
