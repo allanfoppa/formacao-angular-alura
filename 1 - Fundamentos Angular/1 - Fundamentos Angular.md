@@ -76,7 +76,7 @@ Ex:
 
 Home com uma lista de gatos ->  
 clique no gato de ID - 6 ->  
-A tela de detalhe do gato recebe id 6 atraves do `activatedToute.snapshot.params.{ID}`  
+A tela de detalhe do gato recebe id 6 atraves do `activatedRoute.snapshot.params.{ID}`  
 Com o revebimento do ID, é só chamar o service
 
 ## INTERCEPTOR
